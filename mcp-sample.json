@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "kibana": {
+      "command": "python3",
+      "args": ["/Users/jasbir/Code/playground/kibana_mcp.py"],
+      "env": {
+        "KIBANA_URL": "<kibana-url>",
+        "KIBANA_USERNAME": "<kibana-username>",
+        "KIBANA_PASSWORD": "<kibana-pwd>",
+        "ES_INDEX": "logs-kubernetes.container_logs-*",
+        "KIBANA_VERIFY_SSL": "true"
+      }
+    }
+  }
+}
